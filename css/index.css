@@ -282,3 +282,6 @@ border-bottom: 1px dashed black;
     margin-top: 1%;
     margin-bottom: 2.4%;
 }
+.noborder{
+    border: none;
+}
