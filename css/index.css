@@ -168,8 +168,40 @@ justify-content: center;
     color: black;
 }
 #logo{
-    margin-bottom: 3%;
+    margin-bottom: 2.8%;
+    width: 24%;
 }
 #cover{
     margin-bottom: 3%;
+}
+
+#teal{
+    background-color: teal;
+}
+#gold{
+    background-color: gold;
+}
+#cadetblue{
+    background-color: cadetblue;
+}
+#coral{
+    background-color: coral;
+}
+#crimson{
+    background-color: crimson;
+}
+#forestgreen{
+    background-color: forestgreen;
+}
+#darkorchid{
+    background-color: darkorchid;
+}
+#hotpink{
+    background-color: hotpink;
+}
+#indigo{
+    background-color: indigo;
+}
+#dodgerblue{
+    background-color: dodgerblue;
 }
