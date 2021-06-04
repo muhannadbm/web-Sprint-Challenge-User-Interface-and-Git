@@ -54,7 +54,10 @@ table {
     max-width: 100%;
 
 }
-
+section{
+    margin-bottom: 20px;
+border-bottom: 1px dashed black;
+}
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -78,7 +81,6 @@ p {
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -88,6 +90,27 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+.top-content .text-container-about {
+    padding: 0 1%;
+    padding-bottom: 0px;
+padding-bottom: 20px;
+width: 100%;
+margin-left: 1.5%;
+margin-bottom: 5%;
+}
+
+
+.top-content .text-container-about-main {
+    padding: 0 1%;
+    padding-bottom: 0px;
+padding-bottom: 20px;
+width: 100%;
+margin-left: 1.5%;
+
+}
+
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -175,6 +198,7 @@ justify-content: center;
     margin-bottom: 3%;
 }
 
+/*colors*/
 #teal{
     background-color: teal;
 }
@@ -204,4 +228,57 @@ justify-content: center;
 }
 #dodgerblue{
     background-color: dodgerblue;
+}
+
+/*gallery*/
+#gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.galleryelement{
+    width: 46%;
+    border-bottom: 1px dashed black;
+
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+.row{
+    width: 100%;
+display: flex;
+flex-wrap: wrap;
+margin-bottom: 20px;
+border-bottom: 1px dashed black;
+
+}
+
+.image{
+    margin-bottom: 2%;
+}
+
+.learnmore{
+    border: 2px solid black;
+    text-decoration: none;
+    border-radius: 9px;
+    padding: 3% 6%;
+    color: black;
+    display: inline-block;
+    margin-bottom: 5%;
+    
+}
+
+.desc{
+    margin-bottom: 5%;
+}
+.text-container-about-main {
+    padding: 0 1%;
+        padding-bottom: 0px;
+    padding-bottom: 0px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin-left: 1.5%;
+}
+.bottom{
+    margin-top: 1%;
+    margin-bottom: 2.4%;
 }
