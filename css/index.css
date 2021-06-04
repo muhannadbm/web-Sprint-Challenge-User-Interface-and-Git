@@ -49,6 +49,10 @@ table {
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+
 }
 
 html, body {
@@ -143,4 +147,29 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.navbar{
+display: flex;
+width: 100%;
+align-items: center;
+height: 15vh;
+}
+#links{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+.link{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: black;
+}
+#logo{
+    margin-bottom: 3%;
+}
+#cover{
+    margin-bottom: 3%;
 }
